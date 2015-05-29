@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3260BA94-B66F-42AF-930A-74A3A1DD48FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>More.Net.Windows.Presentation</RootNamespace>
+    <AssemblyName>More.Net.Windows.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\More.Net.Windows.Presentation.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="More.Net">
+      <HintPath>..\packages\More.Net.1.0.0.19048\lib\portable-net45+win+wpa81\More.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="More.Net.Windows">
+      <HintPath>..\packages\More.Net.Windows.1.0.0.19402\lib\net45\More.Net.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ReactiveUI">
+      <HintPath>..\packages\reactiveui-core.6.5.0\lib\Net45\ReactiveUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.1.6.2\lib\Net45\Splat.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\net45\System.Reactive.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\net45\System.Reactive.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\net45\System.Reactive.PlatformServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Windows.Threading">
+      <HintPath>..\packages\Rx-XAML.2.2.5\lib\net45\System.Reactive.Windows.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Charts\AxisXView.cs" />
+    <Compile Include="Controls\Charts\AxisYView.cs" />
+    <Compile Include="Controls\Charts\ChartControl.xaml.cs">
+      <DependentUpon>ChartControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Charts\ChartView.cs" />
+    <Compile Include="Controls\CheckButton.xaml.cs">
+      <DependentUpon>CheckButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DeepZoom\Controls\MultiScaleImage.cs" />
+    <Compile Include="Controls\DeepZoom\Controls\TileHost.cs" />
+    <Compile Include="Controls\DeepZoom\DeepZoomImageTileSource.cs" />
+    <Compile Include="Controls\DeepZoom\DeepZoomImageTileSourceConverter.cs" />
+    <Compile Include="Controls\DeepZoom\DisplayRect.cs" />
+    <Compile Include="Controls\DeepZoom\ImageLoader.cs" />
+    <Compile Include="Controls\DeepZoom\MultiScaleImageSpatialItemsSource.cs" />
+    <Compile Include="Controls\DeepZoom\MultiScaleTileSource.cs" />
+    <Compile Include="Controls\DeepZoom\Tile.cs" />
+    <Compile Include="Controls\DeepZoom\VisualTile.cs" />
+    <Compile Include="Controls\GestureContentControl.xaml.cs">
+      <DependentUpon>GestureContentControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImageBrushValueConverter.cs" />
+    <Compile Include="Controls\ImageView.xaml.cs">
+      <DependentUpon>ImageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PriorityQuadTree.cs" />
+    <Compile Include="Controls\ReactiveUserControl.cs" />
+    <Compile Include="Controls\SlideoutControl.xaml.cs">
+      <DependentUpon>SlideoutControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ToastNotificationControl.xaml.cs">
+      <DependentUpon>ToastNotificationControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VirtualPanel.cs" />
+    <Compile Include="Controls\ZoomableCanvas.cs" />
+    <Compile Include="Data\IOneWayTwoValueConverter.cs" />
+    <Compile Include="Data\IValueConverter.cs" />
+    <Compile Include="Data\IValueConverterExtensions.cs" />
+    <Compile Include="Data\OneWayTwoValueConverterBase.cs" />
+    <Compile Include="Data\SingleElementContainer.cs" />
+    <Compile Include="Data\ValueConverterBase.cs" />
+    <Compile Include="DependencyObjectEx.cs" />
+    <Compile Include="DependencyPropertyExtensions.cs" />
+    <Compile Include="DependencyPropertyFactory.cs" />
+    <Compile Include="EventManager.cs" />
+    <Compile Include="Localization\LocalizationScope.cs" />
+    <Compile Include="Localization\LocalizedBindingExtension.cs" />
+    <Compile Include="Localization\LocalizedProperty.cs" />
+    <Compile Include="Localization\LocalizedResourceExtension.cs" />
+    <Compile Include="Localization\LocalizedValue.cs" />
+    <Compile Include="Media\Animation\AnimationTimelineFactory.cs" />
+    <Compile Include="Media\Animation\StoryboardExtensions.cs" />
+    <Compile Include="Media\Animation\StoryboardFactory.cs" />
+    <Compile Include="Media\Animation\TimelineExtensions.cs" />
+    <Compile Include="Media\Imaging\BitmapContext.cs" />
+    <Compile Include="Media\Imaging\IImageExtensions.cs" />
+    <Compile Include="Media\Imaging\WriteableBitmapEx.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyMetadataFactory.cs" />
+    <Compile Include="RectExtensions.cs" />
+    <Compile Include="Threading\DispatcherExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\Charts\ChartControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\CheckButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\DeepZoom\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\GestureContentControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ImageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\SlideoutControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ToastNotificationControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="More.Net.Windows.Presentation.nuspec" />
+    <None Include="More.Net.Windows.Presentation.symbols.nuspec" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir).nuget\NuGet.exe pack $(ProjectDir)More.Net.Windows.Presentation.csproj -IncludeReferencedProjects -Symbols -OutputDirectory $(SolutionDir)..\..\Packages\NuGet\</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

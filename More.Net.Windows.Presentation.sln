@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Windows.Presentation", "More.Net.Windows.Presentation\More.Net.Windows.Presentation.csproj", "{3260BA94-B66F-42AF-930A-74A3A1DD48FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FDA5D82B-0BED-4D99-AB0A-4DA5BCCEB098}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{04BD3A57-D4D0-46C8-9B19-69DA02D5553F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Windows.Presentation.Tests", "More.Net.Windows.Presentation.Tests\More.Net.Windows.Presentation.Tests.csproj", "{84C70860-C176-44EA-B41A-60F85461F45D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3260BA94-B66F-42AF-930A-74A3A1DD48FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3260BA94-B66F-42AF-930A-74A3A1DD48FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3260BA94-B66F-42AF-930A-74A3A1DD48FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3260BA94-B66F-42AF-930A-74A3A1DD48FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C70860-C176-44EA-B41A-60F85461F45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C70860-C176-44EA-B41A-60F85461F45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C70860-C176-44EA-B41A-60F85461F45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C70860-C176-44EA-B41A-60F85461F45D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
