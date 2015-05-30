@@ -1,9 +1,9 @@
-﻿using Light.Linq.Expressions;
+﻿using More.Net.Linq.Expressions;
 using System;
 using System.Linq.Expressions;
 using System.Windows;
 
-namespace EZMetrology.Windows
+namespace More.Net.Windows
 {
     /// <summary>
     /// Provides type safe register methods.

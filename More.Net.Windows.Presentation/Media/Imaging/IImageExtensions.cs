@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EZMetrology.Media;
+using More.Net.Media;
 using System.Runtime.InteropServices;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using EZMetrology.Windows.Interop.Win32;
+using More.Net.Windows.Interop.Win32;
 using System.Diagnostics.Contracts;
 
-namespace EZMetrology.Windows.Media.Imaging
+namespace More.Net.Windows.Media.Imaging
 {
     /// <summary>
     /// 

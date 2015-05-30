@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace EZMetrology.Windows.Controls.Charts
+namespace More.Net.Windows.Controls.Charts
 {
     public class AxisXView : FrameworkElement
     {

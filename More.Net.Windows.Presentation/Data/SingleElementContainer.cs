@@ -7,7 +7,7 @@ using System.Windows.Data;
 using System.Windows;
 using System.Collections.ObjectModel;
 
-namespace EZMetrology.Windows.Data
+namespace More.Net.Windows.Data
 {
     /// <summary>
     /// 

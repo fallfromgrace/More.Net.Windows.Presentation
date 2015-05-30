@@ -1,9 +1,9 @@
-﻿using EZMetrology.Windows.Data;
+﻿using More.Net.Windows.Data;
 using System;
 using System.Globalization;
 using System.Windows.Media;
 
-namespace EZMetrology.Windows.Controls
+namespace More.Net.Windows.Controls
 {
     /// <summary>
     /// 

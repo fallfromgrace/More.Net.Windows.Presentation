@@ -11,7 +11,7 @@ using System.Threading;
 using System.Windows.Threading;
 using System.Resources;
 
-namespace EZMetrology.Windows.Localization
+namespace More.Net.Windows.Localization
 {
     /// <summary>
     /// 

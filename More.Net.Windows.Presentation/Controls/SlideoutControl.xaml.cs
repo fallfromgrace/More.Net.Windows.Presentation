@@ -15,10 +15,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Reactive;
-using EZMetrology.Windows.Media.Animation;
+using More.Net.Windows.Media.Animation;
 using System.Reactive.Linq;
 
-namespace EZMetrology.Windows.Controls
+namespace More.Net.Windows.Controls
 {
     /// <summary>
     /// Interaction logic for SlideoutControl.xaml

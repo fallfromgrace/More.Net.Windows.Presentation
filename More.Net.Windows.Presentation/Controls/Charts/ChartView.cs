@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Threading;
 
-namespace EZMetrology.Windows.Controls.Charts
+namespace More.Net.Windows.Controls.Charts
 {
     /// <summary>
     /// 

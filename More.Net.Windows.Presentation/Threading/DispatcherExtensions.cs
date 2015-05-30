@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Threading;
 
-namespace EZMetrology.Windows.Threading
+namespace More.Net.Windows.Threading
 {
     public static class DispatcherExtensions
     {

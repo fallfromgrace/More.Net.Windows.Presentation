@@ -16,7 +16,7 @@ namespace DeepZoom
     /// </summary>
     internal class MultiScaleImageSpatialItemsSource :
         IList,
-        EZMetrology.Windows.Controls.ZoomableCanvas.ISpatialItemsSource
+        More.Net.Windows.Controls.ZoomableCanvas.ISpatialItemsSource
     {
         private const int CacheCapacity = 300;       // limit cache to 300 tiles
         private const int MinLevelForWpfBug = 18;

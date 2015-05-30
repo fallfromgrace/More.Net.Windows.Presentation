@@ -70,17 +70,17 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net">
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="More.Net">
-      <HintPath>..\packages\More.Net.1.0.0.19048\lib\portable-net45+win+wpa81\More.Net.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="More.Net, Version=1.0.0.25609, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\More.Net.1.0.0.25609\lib\portable-net45+win+wpa81\More.Net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="More.Net.Windows">
-      <HintPath>..\packages\More.Net.Windows.1.0.0.19402\lib\net45\More.Net.Windows.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="More.Net.Windows, Version=1.0.0.26432, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\More.Net.Windows.1.0.0.26432\lib\net45\More.Net.Windows.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -227,7 +227,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir).nuget\NuGet.exe pack $(ProjectDir)More.Net.Windows.Presentation.csproj -IncludeReferencedProjects -Symbols -OutputDirectory $(SolutionDir)..\..\Packages\NuGet\</PostBuildEvent>
+    <PostBuildEvent>$(SolutionDir).nuget\NuGet.exe pack $(ProjectPath) -IncludeReferencedProjects -Symbols -OutputDirectory $(SolutionDir)..\..\Packages\NuGet\</PostBuildEvent>
   </PropertyGroup>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

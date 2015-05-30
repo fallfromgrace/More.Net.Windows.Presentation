@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace EZMetrology.Windows.Localization
+namespace More.Net.Windows.Localization
 {
 
     public class LocalizedResourceValue

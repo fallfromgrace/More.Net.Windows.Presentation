@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EZMetrology.Windows.Controls.Charts
+namespace More.Net.Windows.Controls.Charts
 {
     /// <summary>
     /// Interaction logic for SwiftChartControl.xaml

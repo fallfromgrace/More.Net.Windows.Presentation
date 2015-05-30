@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Animation;
 using System.Linq.Expressions;
-using Light.Linq.Expressions;
+using More.Net.Linq.Expressions;
 
-namespace EZMetrology.Windows.Media.Animation
+namespace More.Net.Windows.Media.Animation
 {
     /// <summary>
     /// 

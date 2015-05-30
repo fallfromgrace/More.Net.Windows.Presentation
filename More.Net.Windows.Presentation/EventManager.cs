@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using WindowsEventManager = System.Windows.EventManager;
 
-namespace EZMetrology.Windows
+namespace More.Net.Windows
 {
     //public static class EventManager
     //{

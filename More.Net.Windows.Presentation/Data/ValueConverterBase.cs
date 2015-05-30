@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Globalization;
 using System.Diagnostics;
 
-namespace EZMetrology.Windows.Data
+namespace More.Net.Windows.Data
 {
     /// <summary>
     /// 

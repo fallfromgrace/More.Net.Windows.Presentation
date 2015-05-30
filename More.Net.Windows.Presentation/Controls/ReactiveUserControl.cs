@@ -8,7 +8,7 @@ using System.Reactive.Disposables;
 using System.Windows.Markup;
 using System.Windows.Controls.Primitives;
 
-namespace EZMetrology.Windows.Controls
+namespace More.Net.Windows.Controls
 {
     /// <summary>
     /// 

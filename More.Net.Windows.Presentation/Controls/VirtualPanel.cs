@@ -7,7 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Threading;
 
-namespace EZMetrology.Windows.Controls
+namespace More.Net.Windows.Controls
 {
     /// <summary>
     /// Provides a framework for <see cref="Panel"/> elements that virtualize their child data collection. This is an abstract class.

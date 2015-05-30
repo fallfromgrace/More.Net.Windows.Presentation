@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Linq.Expressions;
 
-namespace EZMetrology.Windows
+namespace More.Net.Windows
 {
     /// <summary>
     /// 

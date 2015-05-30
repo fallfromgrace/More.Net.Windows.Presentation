@@ -10,11 +10,11 @@ using System.Windows.Markup;
 using System.Threading;
 
 // Register the types in the Microsoft's default namespaces
-[assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml/presentation", "EZMetrology.Windows.Localization")]
-[assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2007/xaml/presentation", "EZMetrology.Windows.Localization")]
-[assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2008/xaml/presentation", "EZMetrology.Windows.Localization")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml/presentation", "More.Net.Windows.Localization")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2007/xaml/presentation", "More.Net.Windows.Localization")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/winfx/2008/xaml/presentation", "More.Net.Windows.Localization")]
 
-namespace EZMetrology.Windows.Localization
+namespace More.Net.Windows.Localization
 {
     /// <summary>
     /// 

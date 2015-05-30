@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EZMetrology.Windows.Controls
+namespace More.Net.Windows.Controls
 {
     /// <summary>
     /// Interaction logic for CheckButton.xaml

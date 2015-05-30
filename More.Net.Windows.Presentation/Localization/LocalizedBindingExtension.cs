@@ -10,7 +10,7 @@ using System.ComponentModel;
 using System.Threading;
 using System.Windows.Threading;
 
-namespace EZMetrology.Windows.Localization
+namespace More.Net.Windows.Localization
 {
     [ContentProperty("ResourceKey")]
     [MarkupExtensionReturnType(typeof(Object))]

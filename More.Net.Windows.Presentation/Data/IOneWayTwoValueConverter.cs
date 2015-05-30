@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace EZMetrology.Windows.Data
+namespace More.Net.Windows.Data
 {
     public interface IOneWayTwoValueConverter<TSource1, TSource2, TResult> : IMultiValueConverter
     {

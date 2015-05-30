@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace EZMetrology.Windows.Controls
+namespace More.Net.Windows.Controls
 {
     /// <summary>
     /// Defines an area within which you can explicitly position an infinite number of child elements by using coordinates that are relative to the <see cref="ZoomableCanvas"/> area.

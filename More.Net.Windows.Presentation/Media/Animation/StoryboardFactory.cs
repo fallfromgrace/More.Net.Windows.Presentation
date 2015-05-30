@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Media.Animation;
 
-namespace EZMetrology.Windows.Media.Animation
+namespace More.Net.Windows.Media.Animation
 {
     /// <summary>
     /// 
